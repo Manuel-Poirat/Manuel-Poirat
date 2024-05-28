@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column, .right-column {
+    padding: 20px;
+}
+
+.left-column {
+    background-color: #333;
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+
+.right-column {
+    width: 70%;
+}
+
+.profile-pic {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.personal-info, .personal-info a {
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #cc0000;
+    border-bottom: 2px solid #cc0000;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3 span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.skill span {
+    width: 150px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #cc0000;
+}
+
+.right-column p {
+    margin-bottom: 20px;
+}
+.tabbed-list {
+    padding-left: 60px; /* Ajustez la valeur pour obtenir la tabulation souhaitée */
+}
+
+.tabbed-list li {
+    margin-bottom: 5px; /* Espace entre les éléments de la liste */
+}
+.skills .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill span {
+    width: 150px;
+    text-align: left;
+}
+
+.skill-gauge {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-grow: 1;
+    margin-left: 10px;
+    height: 10px;
+}
+
+.skill-gauge .level {
+    height: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.company-logo {
+    padding-top: 10px;
+    height: 30px;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+.experience {
+    margin-bottom: 20px;
+}
